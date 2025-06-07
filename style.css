@@ -414,6 +414,18 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+.education .edu-content .card a {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: #fff;
+}
+
+.education .edu-content .card a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 /* skills section styling */
 .skills .title::after {
     content: "what i know";
@@ -507,6 +519,17 @@ section .title::after {
     margin-bottom: 6px;
     font-weight: 500;
 }
+
+.coding-score a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.coding-score a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
 
 .coding-problems {
     font-weight: 500;
@@ -620,6 +643,16 @@ section .title::after {
     color: #ff4b4b;
 }
 
+.exp-details a {
+    color: #ff4b4b;
+    text-decoration: none;
+}
+
+.exp-details a:hover {
+    color: rgb(75, 75, 193);
+    text-decoration: underline;
+}
+
 .exp-details p {
     margin: 4px 0;
     font-size: 16px;
@@ -693,7 +726,6 @@ section .title::after {
     color: #007bff;
     text-decoration: none;
     font-size: 16px;
-    color: #ccc;
 }
 
 .cert-card a:hover {
@@ -766,6 +798,17 @@ section .title::after {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 10px;
+    color: #111;
+}
+
+.project-title a {
+    color: rgb(36, 36, 179);
+    text-decoration: underline;
+}
+
+.project-title a:hover {
+    color: rgb(36, 36, 179);
+    text-decoration: underline;
 }
 
 .project-desc {
@@ -820,6 +863,7 @@ section .title::after {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: crimson;
+    text-decoration: underline;
 }
 
 .contact-info p {
