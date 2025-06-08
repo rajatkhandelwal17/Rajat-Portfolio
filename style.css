@@ -653,6 +653,11 @@ section .title::after {
     text-decoration: underline;
 }
 
+.exp-card .exp {
+    color: crimson;
+    text-decoration: underline;
+}
+
 .exp-details p {
     margin: 4px 0;
     font-size: 16px;
