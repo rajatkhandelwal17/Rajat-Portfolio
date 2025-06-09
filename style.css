@@ -332,22 +332,26 @@ section .title::after {
     text-align: justify;
 }
 
-.about .about-content .right a {
-    display: inline-block;
-    background: crimson;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
+.buttons {
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid crimson;
-    transition: all 0.3s ease;
 }
 
-.about .about-content .right a:hover {
-    color: crimson;
-    background: none;
+.buttons .btn {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 20px;
+    background: crimson;
+    color: white;
+    text-decoration: und;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background-color: #084298;
+    text-decoration: none;
 }
 
 /* education section styling */
