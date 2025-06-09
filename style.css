@@ -223,7 +223,7 @@ section .title::after {
     left: 0;
     height: 100%;
     width: 100%;
-    background: url("images/photo1.jpg") no-repeat center center / cover;
+    background: url("images/ph1.jpg") no-repeat center center / cover;
     background-attachment: scroll;
     opacity: 1.0;
     z-index: 1;
