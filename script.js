@@ -39,8 +39,9 @@ $(document).ready(function () {
       strings: [
         "Software Developer",
         "Java FullStack Developer",
-        "AWS Developer Associate",
-        "Innovation Awardee @ VWITS",
+        "AWS Cloud Developer",
+        "Innovation Awardee @ VWGDS",
+        "INSTAPAT Awardee @ VWGDS",
       ],
       typeSpeed: 100,
       backSpeed: 60,
